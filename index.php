@@ -1,3 +1,6 @@
+<?php 
+require_once ('config.ini');
+?>
 <html>
 <head>
 <Title>Registration Form</Title>
@@ -24,13 +27,6 @@
       <input type="submit" name="submit" value="Submit" />
 </form>
 <?php
-    // DB connection info
-    //TODO: Update the values for $host, $user, $pwd, and $db
-    //using the values you retrieved earlier from the portal.
-    $host = "us-cdbr-azure-east-b.cloudapp.net";
-    $user = "ba903cfa693206";
-    $pwd = "3a7ed40a";
-    $db = "misteraA1MDK5POm";
     // Connect to database.
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
