@@ -26,7 +26,7 @@ require_once ('config.ini');
       Email <input type="text" name="email" id="email"/></br>
       <input type="submit" name="submit" value="Submit" />
 </form>
-<img src="inviteimg.png" Alt="load images to see details."/>
+<img src="images\inviteimg.png" Alt="load images to see details."/>
 <?php
     // Connect to database.
     try {
